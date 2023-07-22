@@ -26,7 +26,7 @@ public class MemberServiceTest {
 
     @Test
     //@Rollback(false)    - 실제 db에 쿼리를 날리도록 설정
-    public void 회원가입(){
+   public void 회원가입(){
 
         Member member = new Member();
         member.setName("kim");
